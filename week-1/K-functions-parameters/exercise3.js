@@ -1,13 +1,11 @@
 // Write your function here
 
-function createGreeting(a, b){
-    return greetingword + name;
+function createGreeting(name){
+    return "hello, my name is " + name;
 }
 
 var name = "Amadou";
- var greetingword = "hello, my name is ";
 
-
-var greeting = createGreeting(greetingword, name);
+var greeting = createGreeting(name);
 
 console.log(greeting);
